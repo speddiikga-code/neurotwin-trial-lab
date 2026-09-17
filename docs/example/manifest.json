@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "python": "3.12.14",
+  "config": {
+    "seed": 42,
+    "n_train": 2000,
+    "n_trial": 300,
+    "replicates": 500,
+    "alpha": 0.05,
+    "ridge_penalty": 1.0
+  },
+  "dependencies": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "matplotlib": "3.10.3"
+  },
+  "sha256": {
+    "trial_results.json": "2074f9f0cf68adfb5718c1b5344071254b1f8d657bb6255b2b2d05a71c23e0c5",
+    "eeg_results.json": "111fc7ac28844246ce75a643d3038a4f2b56913d0e1c0fa64a0a572168a38423",
+    "trial_summary.csv": "d9652ef8e2d16eb08f4f5b57154a20b1d4e74ee31e7f86ce63fa1e2dcc6d3b37",
+    "trial_replicates.csv": "97aa3c1488cb0d6bdd6abedbd54199884f10083f673af1507c371ef2ccab3bba",
+    "eeg_features.csv": "62d73a5d7b5affc2fe47782b21e5fb9c2b6e52412698affcaea8dc94728f3ee3",
+    "trial_metrics.png": "e877fe9e407e188f1f0ae598f9914ab41bd007096566d33a0374f85f97a49845",
+    "eeg_quality.png": "fdacd0a79a1fc7a7372c433147ba85ffa6550a2bf1abf9fbddbbc1f35d19e9b7",
+    "report.html": "b72688ce17555eec693d2827f15f0c44306f72f95a57bcbab12b49bd86f36f24"
+  }
+}
